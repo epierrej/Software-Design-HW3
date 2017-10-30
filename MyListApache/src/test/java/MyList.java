@@ -17,9 +17,9 @@ public class MyList {
 		ArrayList<String> stringList = new ArrayList<String>();
 		ArrayList<Integer> intList = new ArrayList<Integer>();
 		Options options = new Options();
-		Option opt1 = new Option("type", true, "input type");
-		Option opt2 = new Option("key", true, "search value");
-		Option opt3 = new Option("list", true, "array list");
+		Option opt1 = new Option("t", "type", true, "input type");
+		Option opt2 = new Option("k", "key", true, "search value");
+		Option opt3 = new Option("l", "list", true, "array list");
 
 		opt3.setArgs(Option.UNLIMITED_VALUES);
 
